@@ -1,4 +1,4 @@
-import { ExpandIcon, LucideFacebook, LucideGithub, LucideLinkedin, LucideTwitter, ScreenShare } from "lucide-react";
+import { ExpandIcon, LucideFacebook, LucideGithub, LucideLinkedin, LucideTwitter } from "lucide-react";
 
 export  function Footer(){
  return(

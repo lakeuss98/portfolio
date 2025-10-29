@@ -3,7 +3,7 @@ import Link from "next/link";
 import { usePathname } from "next/navigation";
 import { useState } from "react";
 import { Menu, Globe, X } from 'lucide-react';
-export  function NavBar({}:{}){
+export  function NavBar(){
     const menus = [
         {
             title:"Home",
