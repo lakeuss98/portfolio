@@ -27,7 +27,7 @@ export  function NavBar(){
     
     return(
     <>
-        <div className="sticky top-0 z-50 flex items-center justify-between md:text-2xl font-medium w-full bg-gray-950 opacity-40 text-white px-5 md:py-6 py-6 md:px-[100px]">
+        <div className="sticky top-0 z-50 flex items-center justify-between md:text-2xl font-medium w-full bg-gray-950 opacity-40 text-white px-5 md:py-6 py-4 md:px-[100px]">
             {/* Mobile: Drawer Icon */}
             <div className="md:hidden">
                 <button onClick={() => setIsDrawerOpen(true)} className="text-white">
@@ -55,7 +55,7 @@ export  function NavBar(){
 
         {/* Drawer Menu */}
         {isDrawerOpen && (
-            <div className="fixed inset-0 bg-black bg-opacity-70 z-40 md:hidden" onClick={() => setIsDrawerOpen(false)}>
+            <div className="fixed inset-0 bg-black bg-opacity-70 z-51 md:hidden" onClick={() => setIsDrawerOpen(false)}>
                 <div className="fixed top-0 left-0 h-full w-64 bg-gray-950 z-50 p-5" onClick={(e) => e.stopPropagation()}>
                     <div className="flex justify-end mb-5">
                         <button onClick={() => setIsDrawerOpen(false)} className="text-white">

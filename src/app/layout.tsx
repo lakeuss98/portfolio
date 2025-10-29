@@ -21,12 +21,29 @@ const geistMono = Geist_Mono({
 export const metadata: Metadata = {
   title: "André Ngongang - Développeur Web Front-end",
   description: "Portfolio d'André Ngongang, développeur web spécialisé en React, Next.js et TypeScript.",
-  icons:"moi.png"
+  openGraph: {
+    title: "André Ngongang - Développeur Web Front-end",
+    description: "Portfolio d'André Ngongang, développeur web spécialisé en React, Next.js et TypeScript.",
+    url: "https://andre-ngongang.fr", // Remplacez par votre nom de domaine
+    siteName: "André Ngongang's Portfolio",
+    images: [
+      {
+        url: '/moi.png', // Chemin vers votre image dans le dossier public
+        width: 400,
+        height: 400,
+        alt: 'Photo de André Ngongang',
+      },
+    ],
+    locale: 'fr_FR',
+    type: 'website',
+  },
+  twitter: {
+    card: 'summary_large_image',
+    title: "André Ngongang - Développeur Web Front-end",
+    description: "Portfolio d'André Ngongang, développeur web spécialisé en React, Next.js et TypeScript.",
+    images: ['/moi.png'], // Chemin vers votre image
+  },
 };
-
-
-
-
 export default function RootLayout({
   children,
 }: Readonly<{
