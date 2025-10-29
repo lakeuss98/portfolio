@@ -27,7 +27,7 @@ export  function NavBar(){
     
     return(
     <>
-        <div className="sticky top-0 z-50 flex items-center justify-between md:text-2xl font-medium w-full bg-gray-950 opacity-40 text-white px-5 md:py-6 py-4 md:px-[100px]">
+        <div className="sticky top-0 z-50 flex items-center justify-between md:text-2xl font-medium w-full bg-gray-950 opacity-40 text-white px-5 md:py-6 py-2 md:px-[100px]">
             {/* Mobile: Drawer Icon */}
             <div className="md:hidden">
                 <button onClick={() => setIsDrawerOpen(true)} className="text-white">

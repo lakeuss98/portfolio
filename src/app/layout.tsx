@@ -28,7 +28,7 @@ export const metadata: Metadata = {
     siteName: "André Ngongang's Portfolio",
     images: [
       {
-        url: '/moi.png', // Chemin vers votre image dans le dossier public
+        url: 'moi.png', // Chemin vers votre image dans le dossier public
         width: 400,
         height: 400,
         alt: 'Photo de André Ngongang',
@@ -41,7 +41,7 @@ export const metadata: Metadata = {
     card: 'summary_large_image',
     title: "André Ngongang - Développeur Web Front-end",
     description: "Portfolio d'André Ngongang, développeur web spécialisé en React, Next.js et TypeScript.",
-    images: ['/moi.png'], // Chemin vers votre image
+    images: ['moi.png'], // Chemin vers votre image
   },
 };
 export default function RootLayout({
