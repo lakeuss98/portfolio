@@ -21,7 +21,7 @@ export default function Home() {
         </div>
       </main>
       <main className="flex md:px-[100px] flex-col justify-center" >
-        <Image width={400} height={400} className="  " title="Image André" src="/moi.png" alt="image andre" />
+        <Image  width={1088 } height={960} className="  " title="Image André" src="/moi.png" alt="image andre" />
       </main>
         <div title="Citation inspirante" className="flex justify-center  text-center md:hidden text-gray-500 "> <cite>
           &quot; l&apos;éfficacité reside dans la simplicité de l&apos;action <br /> et ou de la conception &quot;
