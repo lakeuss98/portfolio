@@ -66,7 +66,7 @@ export default function RootLayout({
       <body
         className={`${geistSans.variable} ${geistMono.variable} antialiased`}
       >
-        <div className="flex flex-col w-full bg-[url('../../public/simple_pratice.jpeg')] bg-cover flex-grow h-screen ">
+        <div className="flex flex-col w-full bg-[url('../../public/simple_pratice.jpeg')] bg-cover flex-grow min-h-screen ">
         <NavBar/>
         { 
         children

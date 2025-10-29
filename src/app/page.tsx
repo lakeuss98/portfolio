@@ -9,7 +9,7 @@ export default function Home() {
         <span className="flex justify-center md:py-0 space-x-3 md:space-x-0 md:justify-between font-bold text-3xl  md:text-5xl " > <span>ANDRÉ</span><span>NGONGANG</span> </span>
         <div className="flex justify-center space-x-3 md:space-x-0 bg-red-  font-extrabold text-5xl md:text-7xl  " >DJEPGANG .K</div>
         <div className="flex justify-center space-x-3 py-3 md:py-0 md:space-x-0 font-extralight md:justify-between text-accent md:text-4xl "> <span>Front-end </span> <span>Web</span>  <span>Developper</span> </div>
-        <div className="flex flex-col md:flex-row  gap-y-6 md:space-x-0 py-9 mt-6 justify-between px- text-[#0083df] text-2xl ">
+        <div className="flex flex-col md:flex-row  gap-y-6 md:space-x-0 pt-5 md:py-9 md:mt-6 justify-between  text-[#0083df] text-2xl ">
            <div title="Resume of all realisation " className="flex items-center justify-center cursor-pointer hover: hover:animate-none px-9 rounded-xl py-3 md:border-2 border border-[#0083df] bg-transparent "> Resume </div>
            <div title="stack overflow " className="flex cursor-pointer items-center justify-center px-9 rounded-xl py-3 md:border-2 border border-[#0083df] bg-transparent "> Portofolio </div>
 
